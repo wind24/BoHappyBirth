@@ -90,4 +90,8 @@ public abstract class BaseActivity extends AppCompatActivity {
     public boolean isInited() {
         return inited;
     }
+
+    public BaseActivity getActivity() {
+        return this;
+    }
 }
