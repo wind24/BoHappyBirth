@@ -17,4 +17,9 @@ public class MainActivity extends BaseActivity {
         startActivity(intent);
         finish();
     }
+
+    @Override
+    protected int ContentView() {
+        return 0;
+    }
 }
